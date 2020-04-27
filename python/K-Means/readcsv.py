@@ -3,15 +3,17 @@ import pandas as pd
 
 def read_and_normalise_csv(filepath, index_column, name_column, columns_to_load):
 
-    df = pd.read_csv("World.csv", header=0, index_col=index_column, usecols=columns_to_load)
+    df = pd.read_csv(filepath, header=0, index_col=index_column, usecols=columns_to_load)
 
     #get reference to only the columns that contain data
     data_columns = columns_to_load.copy()
     if (index_column > name_column):
         del data_columns[index_column]
         del data_columns[name_column]
-    else:
+    elif (index_column < name_column):
         del data_columns[name_column]
+        del data_columns[index_column]
+    else:
         del data_columns[index_column]
 
     #drop any entry with missing data

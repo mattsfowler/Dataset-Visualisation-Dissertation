@@ -67,9 +67,12 @@ D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\GUI_Csharp\GUI_Dem
 D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\GUI_Csharp\GUI_DemVis\bin\Debug\System.Security.AccessControl.xml
 D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\GUI_Csharp\GUI_DemVis\bin\Debug\System.Security.Principal.Windows.xml
 D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\GUI_Csharp\GUI_DemVis\obj\Debug\GUI_DemVis.csprojAssemblyReference.cache
-D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\GUI_Csharp\GUI_DemVis\obj\Debug\GUI_DemVis.Form1.resources
 D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\GUI_Csharp\GUI_DemVis\obj\Debug\GUI_DemVis.Properties.Resources.resources
 D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\GUI_Csharp\GUI_DemVis\obj\Debug\GUI_DemVis.csproj.GenerateResource.cache
 D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\GUI_Csharp\GUI_DemVis\obj\Debug\GUI_DemVis.csproj.CopyComplete
 D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\GUI_Csharp\GUI_DemVis\obj\Debug\GUI_DemVis.exe
 D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\GUI_Csharp\GUI_DemVis\obj\Debug\GUI_DemVis.pdb
+D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\GUI_Csharp\GUI_DemVis\obj\Debug\GUI_DemVis.MainScreen.resources
+D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\GUI_Csharp\GUI_DemVis\obj\Debug\GUI_DemVis.KMeansGUI.resources
+D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\GUI_Csharp\GUI_DemVis\bin\Debug\Newtonsoft.Json.dll
+D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\GUI_Csharp\GUI_DemVis\bin\Debug\Newtonsoft.Json.xml
