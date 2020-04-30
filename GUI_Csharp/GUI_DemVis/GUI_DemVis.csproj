@@ -85,11 +85,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KMeansGUI.cs">
+    <Compile Include="Forms\KMeansGUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="KMeansGUI.Designer.cs">
+    <Compile Include="Forms\KMeansGUI.Designer.cs">
       <DependentUpon>KMeansGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SomGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SomGUI.Designer.cs">
+      <DependentUpon>SomGUI.cs</DependentUpon>
     </Compile>
     <Compile Include="MainScreen.cs">
       <SubType>Form</SubType>
@@ -100,8 +106,11 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MLSharpPython.cs" />
-    <EmbeddedResource Include="KMeansGUI.resx">
+    <EmbeddedResource Include="Forms\KMeansGUI.resx">
       <DependentUpon>KMeansGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SomGUI.resx">
+      <DependentUpon>SomGUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>

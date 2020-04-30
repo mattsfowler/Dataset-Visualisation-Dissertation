@@ -1,6 +1,12 @@
+#packages
 import sys
 import math
+import pandas as pd
+import numpy as np
 from random import randint
+
+#my files
+from somnormalise import load_csv_for_som as load_csv
 
 
 def randfloat(sig_figs=3):
@@ -92,6 +98,16 @@ def gen_coords(data, som_matrix, width, height):
         coord_list.append(gen_coord(datum, len(datum), som_matrix, width, height))
     return coord_list
 
+def add_coords_to_dframe(df, som_matrix, width, height):
+    col_name = "coords"
+    df[col_name] = np.nan
+    
+    for index, row in df.iterrows():
+        datum = row.tolist()
+        datum = datum[:len(datum) - 1]
+        df[col_name][index] = str(list(gen_coord(datum, len(datum), som_matrix, width, height)))
+    
+    return df
 
 
 def print_points_ascii(coords, width, height, max_char_size=2):
