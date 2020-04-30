@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using System.IO;
+using GUI_DemVis.Forms;
 
 //MLSharpPython pythonRunner = new MLSharpPython(@"D:\Program Files\Python38\python.exe");
 //pythonRunner.ExecutePythonScript(@"D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\pscript.py", out string error);
@@ -26,6 +27,12 @@ namespace GUI_DemVis
         {
             KMeansGUI kmeansGUI = new KMeansGUI();
             kmeansGUI.Show();
+        }
+
+        private void btnSOMScreen_Click(object sender, EventArgs e)
+        {
+            SomGUI somGUI = new SomGUI();
+            somGUI.Show();
         }
     }
 }

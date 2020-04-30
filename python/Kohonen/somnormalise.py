@@ -25,11 +25,6 @@ def load_csv_for_som(filepath, index_column, columns_to_load):
         for index, row in df.iterrows():
             df[key][index] = (row[key] - min_val) / max_val
 
-    #debug perposes only
-    with open("log.txt", 'a') as log_file:
-        log_file.write(str(df.head(5)) + '\n')
-    
-
     return df
 
 

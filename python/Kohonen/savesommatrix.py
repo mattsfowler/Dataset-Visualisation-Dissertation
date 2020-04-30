@@ -9,10 +9,6 @@ from mykohonen import gen_som_matrix
 
 if __name__ == "__main__":
 
-    #debug perposes only
-    with open("log.txt", 'a') as log_file:
-        log_file.write(str(sys.argv) + '\n')
-
     #only expects a single command line arg (first arg is the script file)
     if len(sys.argv) != 2:
         sys.exit(1)
@@ -49,9 +45,6 @@ if __name__ == "__main__":
     #generate matrix
     som_matrix = gen_som_matrix(training_data.values, map_width, map_height,
                                 iter_lim, init_lr, init_rad)
-    
-    #with open("log.txt", 'a') as log_file:
-    #    log_file.write(str(som_matrix) + '\n')
 
     out_file = None
     try:

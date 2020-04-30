@@ -76,3 +76,4 @@ D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\GUI_Csharp\GUI_Dem
 D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\GUI_Csharp\GUI_DemVis\obj\Debug\GUI_DemVis.KMeansGUI.resources
 D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\GUI_Csharp\GUI_DemVis\bin\Debug\Newtonsoft.Json.dll
 D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\GUI_Csharp\GUI_DemVis\bin\Debug\Newtonsoft.Json.xml
+D:\Matt\Documents\GitRepos\Dataset-Visualisation-Dissertation\GUI_Csharp\GUI_DemVis\obj\Debug\GUI_DemVis.Forms.SomGUI.resources

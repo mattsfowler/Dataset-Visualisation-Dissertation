@@ -30,6 +30,7 @@
         {
             this.btnKMeans = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
+            this.btnSOMScreen = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnKMeans
@@ -54,11 +55,23 @@
             this.lblTitle.Text = "Choose Analysis Algorithm";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // btnSOMScreen
+            // 
+            this.btnSOMScreen.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnSOMScreen.Location = new System.Drawing.Point(0, 41);
+            this.btnSOMScreen.Name = "btnSOMScreen";
+            this.btnSOMScreen.Size = new System.Drawing.Size(338, 57);
+            this.btnSOMScreen.TabIndex = 2;
+            this.btnSOMScreen.Text = "Self Organising Map";
+            this.btnSOMScreen.UseVisualStyleBackColor = true;
+            this.btnSOMScreen.Click += new System.EventHandler(this.btnSOMScreen_Click);
+            // 
             // MainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(338, 156);
+            this.Controls.Add(this.btnSOMScreen);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.btnKMeans);
             this.Name = "MainScreen";
@@ -71,6 +84,7 @@
 
         private System.Windows.Forms.Button btnKMeans;
         private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.Button btnSOMScreen;
     }
 }
 

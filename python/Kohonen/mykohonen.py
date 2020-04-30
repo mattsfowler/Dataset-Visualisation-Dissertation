@@ -21,6 +21,8 @@ def sub_vec(vector_a, vector_b, dimensions):
 
 def compute_euclidean(vector_a, vector_b, dimensions):
     #euclidean (pythagorian)
+    with open("log.txt", 'a') as log_file:
+        log_file.write(str(vector_a) + ", " + str(vector_b) + "\n")
     return math.sqrt(sum([((vector_a[d] - vector_b[d]) **2) for d in range(dimensions)]))
 
 def decay_radius(initial_radius, cur_iteration, time_constant):
@@ -100,12 +102,15 @@ def gen_coords(data, som_matrix, width, height):
 
 def add_coords_to_dframe(df, som_matrix, width, height):
     col_name = "coords"
-    df[col_name] = np.nan
+    df[col_name + "_x"] = np.nan
+    df[col_name + "_y"] = np.nan
     
     for index, row in df.iterrows():
         datum = row.tolist()
-        datum = datum[:len(datum) - 1]
-        df[col_name][index] = str(list(gen_coord(datum, len(datum), som_matrix, width, height)))
+        datum = datum[:len(datum) - 2]
+        coord = gen_coord(datum, len(datum), som_matrix, width, height)
+        df[col_name + "_x"][index] = str(coord[0])
+        df[col_name + "_y"][index] = str(coord[1])
     
     return df
 

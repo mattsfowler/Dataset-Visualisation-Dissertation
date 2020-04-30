@@ -44,10 +44,6 @@ if __name__ == "__main__":
         for line in m_file:
             som_matrix.append(list(map(float, line.split(','))))
 
-    with open("log.txt", 'a') as log_file:
-        log_file.write(str(input_data.head(5)) + "\n")
-        log_file.write(str(som_matrix) + "\n")
-
     input_data = add_coords_to_dframe(input_data, som_matrix, map_width, map_height)
     input_data.to_csv(coord_file)
 
