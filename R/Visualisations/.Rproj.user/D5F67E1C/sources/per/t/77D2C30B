@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1588171422570.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1948236578",
+    "id" : "77D2C30B",
+    "lastKnownWriteTime" : 1588174594,
+    "last_content_update" : 1588174594802,
+    "path" : "D:/Matt/Documents/GitRepos/Dataset-Visualisation-Dissertation/R/Visualisations/WorldVisualiser.R",
+    "project_path" : "WorldVisualiser.R",
+    "properties" : {
+        "cursorPosition" : "69,2",
+        "scrollLine" : "41"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
