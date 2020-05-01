@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1588341494273.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1387044325",
+    "id" : "399AF87D",
+    "lastKnownWriteTime" : 1588341785,
+    "last_content_update" : 1588341785,
+    "path" : "D:/Matt/Documents/GitRepos/Dataset-Visualisation-Dissertation/R/Example/example.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "7,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

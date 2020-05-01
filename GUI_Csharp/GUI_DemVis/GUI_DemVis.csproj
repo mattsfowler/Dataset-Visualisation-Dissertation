@@ -97,6 +97,12 @@
     <Compile Include="Forms\SomGUI.Designer.cs">
       <DependentUpon>SomGUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\TextInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TextInput.Designer.cs">
+      <DependentUpon>TextInput.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SomGUI.resx">
       <DependentUpon>SomGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TextInput.resx">
+      <DependentUpon>TextInput.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>

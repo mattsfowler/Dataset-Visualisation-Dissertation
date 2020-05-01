@@ -31,6 +31,8 @@
             this.lblTitleKMeans = new System.Windows.Forms.Label();
             this.lblInputFile = new System.Windows.Forms.Label();
             this.grpParameters = new System.Windows.Forms.GroupBox();
+            this.txtPythonDir = new System.Windows.Forms.TextBox();
+            this.lblPythonDir = new System.Windows.Forms.Label();
             this.lblHint = new System.Windows.Forms.Label();
             this.nudMaxIterations = new System.Windows.Forms.NumericUpDown();
             this.nudNameColumn = new System.Windows.Forms.NumericUpDown();
@@ -49,8 +51,6 @@
             this.lblOutputFile = new System.Windows.Forms.Label();
             this.lbxClusters = new System.Windows.Forms.ListBox();
             this.lstNames = new System.Windows.Forms.ListView();
-            this.lblPythonDir = new System.Windows.Forms.Label();
-            this.txtPythonDir = new System.Windows.Forms.TextBox();
             this.grpParameters.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudMaxIterations)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudNameColumn)).BeginInit();
@@ -107,6 +107,23 @@
             this.grpParameters.TabIndex = 2;
             this.grpParameters.TabStop = false;
             this.grpParameters.Text = "Parameters";
+            // 
+            // txtPythonDir
+            // 
+            this.txtPythonDir.Location = new System.Drawing.Point(149, 415);
+            this.txtPythonDir.Name = "txtPythonDir";
+            this.txtPythonDir.Size = new System.Drawing.Size(235, 20);
+            this.txtPythonDir.TabIndex = 20;
+            this.txtPythonDir.Text = "D:\\Program Files\\Python38\\Python.exe";
+            // 
+            // lblPythonDir
+            // 
+            this.lblPythonDir.AutoSize = true;
+            this.lblPythonDir.Location = new System.Drawing.Point(12, 418);
+            this.lblPythonDir.Name = "lblPythonDir";
+            this.lblPythonDir.Size = new System.Drawing.Size(105, 13);
+            this.lblPythonDir.TabIndex = 19;
+            this.lblPythonDir.Text = "Python Exe Location";
             // 
             // lblHint
             // 
@@ -290,23 +307,6 @@
             this.lstNames.Size = new System.Drawing.Size(528, 536);
             this.lstNames.TabIndex = 4;
             this.lstNames.UseCompatibleStateImageBehavior = false;
-            // 
-            // lblPythonDir
-            // 
-            this.lblPythonDir.AutoSize = true;
-            this.lblPythonDir.Location = new System.Drawing.Point(12, 418);
-            this.lblPythonDir.Name = "lblPythonDir";
-            this.lblPythonDir.Size = new System.Drawing.Size(105, 13);
-            this.lblPythonDir.TabIndex = 19;
-            this.lblPythonDir.Text = "Python Exe Location";
-            // 
-            // txtPythonDir
-            // 
-            this.txtPythonDir.Location = new System.Drawing.Point(149, 415);
-            this.txtPythonDir.Name = "txtPythonDir";
-            this.txtPythonDir.Size = new System.Drawing.Size(235, 20);
-            this.txtPythonDir.TabIndex = 20;
-            this.txtPythonDir.Text = "D:\\Program Files\\Python38\\Python.exe";
             // 
             // KMeansGUI
             // 

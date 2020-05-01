@@ -1,0 +1,1 @@
+{"trainingData":"World.csv","colsToLoad":"[\"Another\",\"Poo\"]","indexCol":"0","matrixFile":"WorldSOM.csv","mapWidth":"30","mapHeight":"30","iterLim":"500","initLR":"0.25","initRad":"15"}
